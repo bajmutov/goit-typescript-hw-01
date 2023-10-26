@@ -1,11 +1,11 @@
-import { concatenation } from "./concatenation";
+import { concatenation } from './concatenation';
 
-const button = document.querySelector("button")!;
-const input = document.querySelector("input")!;
+const button = document.querySelector('button')!;
+const input = document.querySelector('input')!;
 
 if (button && input) {
-  button.addEventListener("click", () => {
-    concatenation(input.value, "hello!");
+  button.addEventListener('click', () => {
+    concatenation(input.value, 'Hello world. Peace everyone!!');
   });
 }
 
@@ -13,4 +13,4 @@ function add(num1: number, num2: number) {
   return num1 + num2;
 }
 
-console.log("sum", add(1, 1));
+console.log('sum', add(1, 1));
